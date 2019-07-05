@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     //Abone olma ve Yayın yapma mantığında çalışır
     //Böylelikle Activtyler ve Fragmentler arasındaki bağımlılık ortadan kalkar..(implemente etme zorunluluğu yoktur)
 
-    String deneme="deneme";
+   String ornek_metin="örnek metin";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
