@@ -12,6 +12,12 @@ import org.greenrobot.eventbus.Subscribe;
 
 public class MainActivity extends AppCompatActivity {
 
+    //EventBus ile Aktivity ve Fragmentler arasında veri alışverişleri Modellerle sağlanır.
+    //Abone olma ve Yayın yapma mantığında çalışır
+    //Böylelikle Activtyler ve Fragmentler arasındaki bağımlılık ortadan kalkar..(implemente etme zorunluluğu yoktur)
+
+    String deneme="deneme";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
