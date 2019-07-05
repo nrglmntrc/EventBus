@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EventBusStickyKullanimi</string>
+    <string-array name="subjects">
+        <item>Activity Nedir</item>
+        <item>Service Nedir</item>
+        <item>Content Providers Nedir</item>
+        <item>Broadcast Receiver Nedir</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Activity sınıfını android uygulama geliştirirken bir çok kez kullanacağız. Uygulamamızın ön planda yer alan sayfa yapısı olarak da adlandırabiliriz. Bir Activity oluşturduğunuzda .java uzantılı bir class yapısı oluştuğunu göreceksiniz. Ayrıca, her bir Activity’nin kendine ait yaşam döngüsü vardır. Bu yaşam döngüsünün işleyişini çok iyi bilmemiz gerekiyor ki Activity yapısını düzgün bir şekilde kullanalım. Yaşam Döngüsünü incelediğimizde Activity başlatıldığında ilk çalışan method onCreate methodudur.
+            Android Studio da yeni bir android projesi oluşturalım ; ilgili adımları tamamladığımızda ana Activity e sahip olan bir proje oluşturduğumuzu göreceksiniz </item>
+        <item>Android Service class lar aslında arayüzü olmayan activity classlardır. Yani herhangi bir xml dosyasına bağlanıp çalışmazlar. Arayüzleri olmadığı için kullanıcı ile herhangibir bağlantıları olmaz.Android işletim sistemi service class lara activitylere göre daha çok öncelik tanır.Cihazın ram sıkıntısı olduğu durumlarda önce activityleri kapatır sonra serviceleri otomatik kapatmaya başlar. Eğer ram sıkıntısı ortadan kalkarsa kapattığı service leri tekrardan açar. Uygulamayı kapattığınızda bile servisler çalışmaya devam edebilir.</item>
+        <item>Content provider yapısal bir data kümesine erişimi sağlayan soyut sınıftır. Bu yapıyı veri paylaşmak, hataları azaltmak ve diğer frameworklerle etkileşim halinde olmak için kullanırız.
+           Kısaca kullanıcı arayüzü ile veri kaynağı arasındaki katmandır. Böylece verilerle ilgili tüm yapıları tek bir yapı içinde saklamış oluruz.</item>
+        <item>BroadCastReceiver işletim sistemi tarafından uygulamalara gönderilen sinyalleri dinlemek ve takip etmekle görevlidir. Bu sinyaller işletim sistemiyle birlikte gelen sistem uygulamaları tarafından oluşturulabileceği gibi market üzerinden indirilen uygulamalar tarafından da gönderilebilir. Bu şekilde uygulamamız telefona gelen çağrılardan, kısa mesajlardan ve diğer olaylardan haberdar olacak.</item>
+    </string-array>
+</resources>
